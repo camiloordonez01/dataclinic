@@ -1,0 +1,324 @@
+
+/*_LOGIN_*/
+.login{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login .card{
+    -webkit-box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+}
+.login .card form a{
+    color: #55c6c9;
+}
+.login .card form button{
+    background-color: #083b66;
+    color:white;
+}
+/*_______*/
+
+/*_PANEL_*/
+/*#content {
+    background-color: #eeeeee; 
+    padding: 0px 20px;
+    width: calc(100% - 260px);
+    transition-property: top,bottom,width;
+    transition-duration: .2s,.2s,.35s;
+    transition-timing-function: linear,linear,ease;
+}
+#menu{
+    height: 100%;
+    max-height: 100%;
+    width: 260px;
+    padding: 0;
+    background-color: white;
+    transition-property: top,bottom,width;
+    transition-duration: .2s,.2s,.35s;
+    transition-timing-function: linear,linear,ease;
+    -webkit-box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+}
+.display-table {
+    display: table;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.display-table-row {
+    display: table-row;
+    height: 100%;
+}
+
+.display-table-cell {
+    display: table-cell;
+    float: left;
+    height: 100%;
+}
+
+.v-align {
+    vertical-align: top;
+}*/
+/*_______*/
+
+/*_MENU_*/
+.logo.brand-link{
+    text-align: center;
+    color: #6c757d;
+}
+.logo.brand-link:hover{
+    color: #6c757d;
+}
+.logo.brand-link .brand-image{
+    max-height: 110px;
+    padding: 10px;
+    border-radius: 10px;
+    float: inherit;
+}
+.main-sidebar{
+    background-color: white;
+}
+#menu .nav-pills .nav-link.active{
+    background-color: #083b66;
+    color: white;
+}
+#menu .nav-pills .nav-link.active.subactive{
+    background-color: rgba(108,117,125,0.5);
+}
+#menu .nav-sidebar .nav-treeview{
+    padding-left: 20px;
+}
+#menu .nav-pills .nav-link:hover{
+    background-color: #083b66;
+}
+#menu .nav-pills .nav-link:not(.active):hover{
+    color:white;
+}
+.sidebar-collapse #menu .nav-sidebar .nav-treeview{
+    padding-left: 0;
+}
+.sidebar-collapse .logo.brand-link .brand-image{
+    max-height: 60px;
+    margin: 0;
+}
+/*.logo{
+    position: relative;
+    padding: 10px .7rem;
+    z-index: 4;
+    font-size: 16px;
+    text-align: center;
+}
+.logo a img{
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    width: 130px;
+    margin: auto;
+}
+.logo a img.logoVertical{
+    display: none;
+}
+.menuPrincipal ul{
+    padding: 0;
+}
+.menuPrincipal ul li a{
+    margin: 10px 15px 0;
+    color: black;
+    display: block;
+    text-decoration: none;
+    position: relative;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 8px 8px;
+    line-height: 30px;
+    opacity: .7;
+    border: 1px solid transparent;
+}
+.menuPrincipal ul li a:hover{
+    background-color: #083b66;
+    color:white;
+    border: 1px solid rgba(85, 85, 85, 0.21176470588235294);
+    border-radius: 4px;
+}
+.menuPrincipal ul li a:hover i{
+    color:white;
+}
+.menuPrincipal ul li a.active{
+    background-color: #083b66;
+    color: white;
+    border: 1px solid rgba(85, 85, 85, 0.21176470588235294);
+    box-shadow: 0 4px 20px 0 rgba(0,0,0,.14), 0 7px 10px -5px rgba(33,38,64,.4);
+    border-radius: 4px;
+}
+.menuPrincipal ul li a.active i{
+    color:white;
+}
+
+.menuPrincipal ul li a.active:hover{
+    color: #F0F2F2;
+}
+
+.menuPrincipal ul li a.active:hover i{
+    background-color: transparent;
+    color: #F0F2F2;
+}
+.menuPrincipal ul li a i{
+    font-size: 20px;
+    float: left;
+    margin-right: 8px;
+    line-height: 30px;
+    text-align: center;
+    color: black;
+    position: relative;
+}
+.menuPrincipal ul li a span{
+    margin: 0;
+    line-height: 30px;
+    position: relative;
+    display: block;
+    height: auto;
+    white-space: nowrap;
+    font-weight: 600;
+    transition-property: top,bottom,width;
+    transition-duration: .2s,.2s,.35s;
+    transition-timing-function: linear,linear,ease;
+}
+.menuPrincipal ul.activeMenu li.fondo{
+    width: 80px;
+}
+.menuPrincipal li.fondo{
+    position: absolute;
+    width: 260px;
+    bottom: 13px;
+    cursor: pointer;
+}
+ul.activeMenu li a{
+    height: 50px;
+}
+ul.activeMenu li a span{
+    display: none !important;
+}
+.activeLogo a img.logoHorizontal{
+    display: none;
+}
+.activeLogo a img.logoVertical{
+    display: block;
+}*/
+/*_______*/
+
+/*_HEADER_*/
+/*#header.main-header{
+    background-color: #083b66;
+}*/
+/*#header{
+    background-color: #083b66;
+    -webkit-box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+}
+#header .info{
+    text-align: right;
+}*/
+/*.navbar-nav>.user-menu{
+    color: white;
+    padding: 10px 10px;
+}
+.navbar-nav>.user-menu:hover{
+    background-color:#55c6c9;
+}
+.navbar-nav>.user-menu a{
+    color: white;
+    padding: 10px 10px;
+    text-decoration: none;
+}
+.navbar-nav>.user-menu .user-image {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    margin-right: 10px;
+    margin-top: -2px;
+}
+.dropdown-toggle::after{
+    display: none;
+}
+.navbar-nav>.user-menu ul li{
+    padding: 15px 10px;
+}
+.navbar-nav>.user-menu ul li:hover{
+    background-color: #eee;
+    border-left: 4px solid black;
+}
+.navbar-nav>.user-menu ul li a{
+    color: #55c6c9;
+}*/
+.user-menu i{
+    padding-right: 10px;
+    
+    font-size: 18px;
+}
+.user-menu .dropdown-menu-lg {
+    max-width: 200px;
+    min-width: 180px;
+}
+/*_______*/
+/*_WELCOME_*/
+#welcome{
+    height: calc(100vh - 200px);
+}
+#welcome .card-body{
+    display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/*_______*/
+
+/*_______*/
+.card-principal:not(.card-outline)>.card-header{
+    background-color: #083b66;
+    color:white;
+}
+button.btn-principal, a.btn-principal, input.btn-principal{
+    background-color: #083b66;
+    color:white;
+}
+/*_MODALS_*/
+.modal-principal .modal-header{
+    background-color: #083b66;
+    color:white;
+}
+/*_EVENTOS_*/
+.header-evento{
+    display: flex;
+}
+.header-evento .header-img{
+    width: 50%;
+}
+.header-evento .header-img img{
+    width: 60%;
+}
+.header-evento .header-title{
+    width: 50%;
+    text-align: right;
+}
+.header-evento .header-title label{
+    color:rgba(0,0,0,.5);
+}
+/*_______*/
+/*_HISTORIA_*/
+.modal-dialog.modal-firma{
+    max-width: 640px;
+}
+.flt-guardar{
+    width: 60px;
+    height: 60px;
+    border-radius: 100% !important;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    font-size: 36px !important;
+    margin-right: 16px;
+    margin-bottom: 16px;
+    padding: 4px !important;
+}
+/*_______*/
